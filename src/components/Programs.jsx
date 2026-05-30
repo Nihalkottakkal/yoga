@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 
 export default function Programs() {
   return (
-    <section id="programs" className="py-24 md:py-32 bg-ivory relative">
+    <section id="programs" className="py-24 md:py-32 bg-sand relative">
       {/* Decorative blur */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-sage/5 rounded-l-full blur-3xl pointer-events-none" />
 
@@ -56,7 +56,7 @@ export default function Programs() {
           {/* Stress Management */}
           <Reveal
             delay={100}
-            className="bg-sand rounded-3xl p-6 relative overflow-hidden bento-hover flex flex-col justify-between group cursor-pointer"
+            className="bg-emerald-200 rounded-3xl p-6 relative overflow-hidden bento-hover flex flex-col justify-between group cursor-pointer"
           >
             <div className="absolute -right-4 -top-4 text-8xl text-white opacity-40 group-hover:scale-110 transition-transform pointer-events-none">
               <i className="fas fa-spa" />
@@ -109,7 +109,7 @@ export default function Programs() {
           {/* PCOD / PCOS */}
           <Reveal
             delay={250}
-            className="bg-ivory border border-sand rounded-3xl p-6 bento-hover flex flex-col justify-center items-center text-center cursor-pointer"
+            className="bg-gray-300 border border-sand rounded-3xl p-6 bento-hover flex flex-col justify-center items-center text-center cursor-pointer"
           >
             <i className="fas fa-venus text-3xl text-gold mb-3" />
             <h3 className="text-lg font-serif text-charcoal">

@@ -1,8 +1,8 @@
-import Reveal from './Reveal'
+import Reveal from "./Reveal";
 
 export default function Certification() {
   return (
-    <section className="py-16 bg-ivory border-y border-sand">
+    <section className="py-16 bg-sand border-y border-sand">
       <Reveal className="max-w-4xl mx-auto px-6 text-center">
         <div className="w-20 h-20 mx-auto mb-6 bg-white rounded-full shadow-lg flex items-center justify-center border border-sand">
           <i className="fas fa-award text-3xl text-gold" />
@@ -15,5 +15,5 @@ export default function Certification() {
         </h3>
       </Reveal>
     </section>
-  )
+  );
 }

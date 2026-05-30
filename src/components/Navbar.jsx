@@ -33,7 +33,7 @@ export default function Navbar() {
     <nav
       className={`fixed w-full z-50 transition-all duration-500 px-6 md:px-12 ${
         scrolled
-          ? "bg-white/90 backdrop-blur-md py-2 shadow-sm"
+          ? "bg-sand/50 backdrop-blur-md py-2 shadow-lg"
           : "bg-transparent py-4"
       }`}
     >
@@ -58,7 +58,7 @@ export default function Navbar() {
         </a>
 
         {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-8 glass-panel px-8 py-3 rounded-full">
+        <div className="hidden md:flex items-center gap-8 bg-sand glass-panel px-8 py-3 rounded-full">
           {LINKS.map(({ href, label }) => (
             <a
               key={href}

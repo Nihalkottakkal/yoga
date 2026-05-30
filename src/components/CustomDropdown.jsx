@@ -46,7 +46,7 @@ export const CustomDropdown = ({
         onClick={() => setOpen((prev) => !prev)}
         className={`
           flex h-11 w-full items-center justify-between
-           border-b border-gray-500/80 bg-transparent
+           border-b border-white/20 bg-transparent
            transition-all duration-200
           
           focus:border-gold
